@@ -1,19 +1,20 @@
  function myFunction() {
-    var value1=parseInt(document.getElementById("value1").value);
-    var value2=parseInt(document.getElementById("value2").value); 
-    var value3=parseInt(document.getElementById("value3").value);
-    
-    if  (value1+value2 > value3 &&
-         value1+ value3>value2 && 
-         value2+value3>value1){
-        if (value1===value2 && 
-            value1===value3 && 
-            value2===value3){
+    var value =[
+    parseInt(document.getElementById("value1").value),
+    parseInt(document.getElementById("value2").value),
+    parseInt(document.getElementById("value3").value)
+     ];
+    if  (value[0]+value[1] > value[2] &&
+         value[0]+ value[2]>value[1] && 
+         value[1]+value[2]>value[0]){
+        if (value[0]===value[1] && 
+            value[0]===value[2] && 
+            value[1]===value[2]){
             alert("equilateral triangle");
         }
-        else if (value1===value2||
-            value1===value3||
-            value2===value3){
+        else if (value[0]===value[1]||
+            value[0]===value[2]||
+            value[1]===value[2]){
             alert("isoceles triangle");
         }
         else {
