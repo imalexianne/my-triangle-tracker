@@ -11,7 +11,7 @@
             value2===value3){
             alert("equilateral triangle");
         }
-        /*else if (value1===value2||
+        else if (value1===value2||
             value1===value3||
             value2===value3){
             alert("isoceles triangle");
@@ -24,4 +24,4 @@
     else {
         alert("Not a triangle");
     } 
-}*/
+}
