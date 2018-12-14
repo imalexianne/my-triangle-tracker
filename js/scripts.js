@@ -4,6 +4,7 @@
     parseInt(document.getElementById("value2").value),
     parseInt(document.getElementById("value3").value)
      ];
+     console.log(value);
     if  (value[0]+value[1] > value[2] &&
          value[0]+ value[2]>value[1] && 
          value[1]+value[2]>value[0]){
