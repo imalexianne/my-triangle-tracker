@@ -7,3 +7,6 @@ my-triangle-tracker is about making the interface logic and business logic where
 To access on this project, you have to use google chrome and text-editor. 
  ### link to live site
 https://github.com/imalexianne/my-triangle-tracker
+### copyright and license information
+This project is licensed under the term MIT license.
+Copyright (c) {2018} **{IMANIRAKARAMA Alexianne}**
