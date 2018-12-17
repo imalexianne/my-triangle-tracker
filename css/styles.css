@@ -1,7 +1,58 @@
 *{
-    background-color: navajowhite;
+    
     color: black;
 }
 h1{
     text-align: center;
+}
+nav>ul{
+    text-align:right;
+  }
+  nav>ul>li{
+    display:inline-block;
+  }
+  nav>ul>li>a{
+    padding:0px;
+    text-transform:uppercase;
+    text-decoration:none;
+    color:green;
+    margin-top:5px;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ .box{
+    background-color: teal;
+    width: 900px;
+    height: 700PX;
+    border: 25px solid #87CEFA;
+    padding: 25px;
+    margin-left: 200px;
+}
+body{
+    background-color:navajowhite;
+    border:4px solid;
+}
+input[type=number], select {
+    display:inline-block;
+    border:3px solid ;
+    border-radius:5px;
+    box-sizing: border-box;
+    height: 50px;
+}
+#form{
+    background-color: dimgray;
+    text-align: center;
+    margin-top: 30px;
+}
+.social{
+    text-align: center;
+    margin-top: 20px;
+}
+footer{
+    margin-top: 30px;
+    text-align: center;
+    background-color: saddlebrown;
+}
+#instruction{
+    margin-left: 20px;
 }
