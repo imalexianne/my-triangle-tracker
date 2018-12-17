@@ -16,9 +16,9 @@ nav>ul{
     text-transform:uppercase;
     text-decoration:none;
     color:green;
-    margin-top:5px;
+    margin-top:10px;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 50px;
  }
  .box{
     background-color: teal;
@@ -26,7 +26,8 @@ nav>ul{
     height: 700PX;
     border: 25px solid #87CEFA;
     padding: 25px;
-    margin-left: 200px;
+    margin-left: 150px;
+    margin-top: 40px;
 }
 body{
     background-color:navajowhite;
@@ -55,4 +56,10 @@ footer{
 }
 #instruction{
     margin-left: 20px;
+}
+button{
+    border:3px solid ;
+    border-radius:5px;
+    box-sizing: border-box;
+    height: 50px; 
 }
