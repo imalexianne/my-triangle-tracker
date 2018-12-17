@@ -1,60 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Triangle Tracker</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/scripts.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
-<body>
-    <div class="navigation">
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#instruction">Instruction</a></li>
-                <li><a href="#form">Form</a></li>
-            </ul>
-    </div>
-    <div class="box">
-        <div id="home">
-        <h1>TRIANGLE TRACKER</h1>
+    <head>
+        <!--title section-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Triangle Tracker</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/scripts.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <!--navigation section-->
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#instruction">Instruction</a></li>
+                    <li><a href="#form">Form</a></li>
+                </ul>
+            </nav>
         </div>
-        <div id="about">
-        <p>This project is about making the interface logic and business logic where the interface logic is a form made by three input places where the end user have to enter three different numbers which are the three lengths of the triangle and one button where the end user click to find which type of triangle. </p>
+        <!--box-model section-->
+        <div class="box">
+            <div id="home">
+              <h1>TRIANGLE TRACKER</h1>
+            </div>
+            <div id="about">
+              <p>This project is about making the interface logic and business logic where the interface logic is a form made by three input places where the end user have to enter three different numbers which are the three lengths of the triangle and one button where the end user click to find which type of triangle. </p>
+            </div>
+            <!--instruction section-->
+            <div id="instruction">
+                <p>To be a triangle the sum of two sides taken randomly must be greater than the left one here value1 is the first side, value2 is the second side and value3 is the third side</p>
+                <p>From these conditions:value1+value2>value3 and value1+value3>value2 and value2+value3>value1.</p> 
+                <p>If any of the three conditions is false there is no triangle and alert will say <strong>Not a triangle</strong>.</p>
+                <p>If all these conditions are true, then you have a triangle and the user want to know which type of triangle he made</p>
+                <p><strong>Conditions to know the type of triangle:</strong></p>
+                <ol>
+                    <li>If value1=value2 and value1=value3 and value2=value3, the user has an <strong>equilateral triangle</strong>.</li>
+                    <li>If value1=value2 or value1=value3 or value2=value3, the user has an <strong>isoceles triangle</strong>.</li>
+                    <li>If all the above two conditions are not, now it is a <strong>scalene triangle</strong>.</li>
+                </ol>
+            </div>
+            <!--form section-->
+            <div id="form">
+                <h3>Now you are wellcome to try your values!!!!!</h3>
+                <form>
+                    <label for="fname">value1</label>
+                    <input type="number" id="value1" placeholder="value1"><br><br>
+                    <label for="fname">value2</label>
+                    <input type="number" id="value2" placeholder="value2"><br><br>
+                    <label for="fname">value3</label>
+                    <input type="number" id="value3" placeholder="value3"><br><br>
+                    <button onclick="myFunction()">check</button> 
+                </form>
+            </div>
         </div>
-        <div id="instruction">
-        <p>To be a triangle the sum of two sides taken randomly must be greater than the left one here value1 is the first side, value2 is the second side and value3 is the third side</p>
-        <p>From these conditions:value1+value2>value3 and value1+value3>value2 and value2+value3>value1.</p> 
-        <p>If any of the three conditions is false there is no triangle and alert will say <strong>Not a triangle</strong>.</p>
-        <p>If all these conditions are true, then you have a triangle and the user want to know which type of triangle he made</p>
-        <p><strong>Conditions to know the type of triangle:</strong></p>
-        <oll>
-        <li>If value1=value2 and value1=value3 and value2=value3, the user has an <strong>equilateral triangle</strong>.</li>
-        <li>If value1=value2 or value1=value3 or value2=value3, the user has an <strong>isoceles triangle</strong>.</li>
-        <li>If all the above two conditions are not, now it is a <strong>scalene triangle</strong>.</li>
-        </div>
-        <div id="form">
-        <h3>Now you are wellcome to try your values!!!!!</h3>
-        <form>
-            <label for="fname">value1</label>
-        <input type="number" id="value1" placeholder="value1"><br><br>
-        <label for="fname">value2</label>
-        <input type="number" id="value2" placeholder="value2"><br><br>
-        <label for="fname">value3</label>
-        <input type="number" id="value3" placeholder="value3"><br><br>
-        <button onclick="myFunction()">check</button> 
-        </form>
-        </div>
-     </div>
-     <div class="social">
+        <!--social section-->
+        <div class="social">
             <a href="https://github.com/imalexianne" class="fa fa-github"></a>
             <a href="https://www.facebook.com/imanirakarama.alexianne" class="fa fa-facebook"></a>
             <a href="https://www.instagram.com/imanirakaramaalexianne/?hl=en" class="fa fa-instagram"></a>  
-     </div>
-</body>
-<footer>copyright@2018 by Alexianne</footer>
+        </div>
+    </body>
+    <footer>copyright@2018 by Alexianne</footer>
 </html>

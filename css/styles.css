@@ -1,6 +1,5 @@
 *{
-    
-    color: black;
+color: black;
 }
 h1{
     text-align: center;
@@ -8,10 +7,10 @@ h1{
 nav>ul{
     text-align:right;
   }
-  nav>ul>li{
+nav>ul>li{
     display:inline-block;
   }
-  nav>ul>li>a{
+nav>ul>li>a{
     padding:0px;
     text-transform:uppercase;
     text-decoration:none;
@@ -20,7 +19,7 @@ nav>ul{
     margin-left: 10px;
     margin-right: 50px;
  }
- .box{
+.box{
     background-color: teal;
     width: 900px;
     height: 700PX;
