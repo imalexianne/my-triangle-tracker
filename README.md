@@ -17,9 +17,9 @@ I'm IMANIRAKARAMA Alexianne, a full time student in Moringa school (WeCode) wher
 ### BDD
 | Behavior                                                         | Input     |  Output      |
 | :----------------------------------------------------------------| :--------:| -----------: |
-| when i put in 3 equal numbers it will say equilateral            | 10,10,10  | Equilateral  |
-| when i put in 2 equal numbers it will say  isosceles             | 30,30,50 |  Isosceles   |
-| when i put in 3 different numbers it will say scalene            | 30,40,50  | Scalene      |
+| when you put in 3 equal numbers it will say equilateral            | 10,10,10  | Equilateral  |
+| when you put in 2 equal numbers it will say  isosceles             | 30,30,50 |  Isosceles   |
+| when you put in 3 different numbers it will say scalene            | 30,40,50  | Scalene      |
 | when the sum of two values is less than or equal to the third will say Not a Triangle     | 10,34,90  | No Triangle     |
 
 ### User story
