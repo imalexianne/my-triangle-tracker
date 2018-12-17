@@ -33,7 +33,7 @@ For an isosceles triangle, two sides are exactly equal.
 For a scalene triangle, none of the sides is equal. However, the sum of any two sides of the triangle must be greater than the third side.
 Most importantly, if the sum of any two sides of the triangle is equal to or less than the third remaining side, then a triangle can not be formed using those values.
 
-###Technologies used
+### Technologies used
 
 I used html,javascript,css,markdown languages and visual studio for the terminal or platform.
 
