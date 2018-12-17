@@ -40,10 +40,8 @@ Tel: +250783351129
 
  ### link to live site
 
- ```
  https://github.com/imalexianne/my-triangle-tracker
 
-```
 ### copyright and license information
 
 ```
